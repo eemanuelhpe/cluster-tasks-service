@@ -12,7 +12,7 @@
 	<description>Tasks management, distribution and execution service, working in cluster aware fashion, providing
 		queue-like functionality, embedded.
 	</description>
-	<url>https://github.com/MicroFocus/cluster-tasks-service</url>
+	<url>https://github.com/eemanuelhpe/cluster-tasks-service</url>
 
 	<licenses>
 		<license>
@@ -20,23 +20,11 @@
 			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
 		</license>
 	</licenses>
-
-	<developers>
-		<developer>
-			<id>gullery</id>
-			<name>Yuri Guller</name>
-			<email>gullerya@gmail.com</email>
-			<organization>MicroFocus</organization>
-			<roles>
-				<role>Maintainer</role>
-			</roles>
-		</developer>
-	</developers>
-
+	
 	<scm>
-		<connection>scm:git:git://github.com/MicroFocus/cluster-tasks-service.git</connection>
-		<developerConnection>scm:git:ssh://github.com:/MicroFocus/cluster-tasks-service.git</developerConnection>
-		<url>https://github.com/MicroFocus/cluster-tasks-service</url>
+		<connection>scm:git:git://github.com/eemanuelhpe/cluster-tasks-service.git</connection>
+		<developerConnection>scm:git:ssh://github.com:/eemanuelhpe/cluster-tasks-service.git</developerConnection>
+		<url>https://github.com/eemanuelhpe/cluster-tasks-service</url>
 	</scm>
 
 	<properties>
@@ -64,7 +52,7 @@
 		<!--QUALITY-->
 		<skipTests>true</skipTests>
 		<junit.version>4.12</junit.version>
-		<maven-surefire-plugin.version>3.0.0-M3</maven-surefire-plugin.version>
+		<maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
 		<jacoco-maven-plugin.version>0.8.4</jacoco-maven-plugin.version>
 		<spotbugs.version>3.1.11</spotbugs.version>
 		<sql-maven-plugin.version>1.5</sql-maven-plugin.version>
